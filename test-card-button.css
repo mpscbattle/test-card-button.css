@@ -13,7 +13,7 @@ body {
     display: none; 
     box-sizing: border-box;
     position: relative; 
-    border-radius: 0px; 
+    border-radius: 2px; 
     overflow: hidden; 
 } 
 
@@ -45,7 +45,7 @@ body {
     font-size: 18px; 
     font-weight: bold; 
     line-height: 25px; 
-    color: #000000; 
+    color: #262626; 
 } 
 
 /* START EXAM BUTTON (Pichla update) */
@@ -57,7 +57,7 @@ body {
     font-size: 14px; 
     font-weight: bold; 
     cursor: pointer; 
-    border-radius: 0px;
+    border-radius: 2px;
 } 
 /* END START EXAM BUTTON UPDATES */
 
@@ -97,17 +97,17 @@ body {
 } 
 
 #loadMoreBtn { 
-    background-color: #006666; 
+    background-color: #ff6600; 
     color: white; 
     font-size: 16px; 
     font-weight: bold; 
     border: none; 
     padding: 4px 15px; 
-    border-radius: 1px; 
+    border-radius: 3px; 
     cursor: pointer; 
 } 
 
 #loadMoreBtn:hover { 
-    background-color: #cc5200; 
+    background-color: #527a7a; 
 }
 /* *** CSS END *** */
