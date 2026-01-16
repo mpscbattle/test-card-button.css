@@ -7,13 +7,13 @@ body {
 .test-box { 
     background-color: #f2f2f2; 
     width: 100%; 
-    padding: 10px; 
+    padding: 30px 10px 10px 10px; 
     font-size: 19px; 
     margin: 30px auto; 
-    display: none;/* Sab hidden by default */ 
+    display: none; 
     box-sizing: border-box;
     position: relative; 
-    border-radius: 2px; 
+    border-radius: 0px; 
     overflow: hidden; 
 } 
 
@@ -39,12 +39,13 @@ body {
 /* END SMALL BUTTON UPDATES */
 
 
-.test-box h2 {  
-     margin: 0 0 10px 0;
+.test-box h2 { 
+    margin: 0; 
+    margin-top: 6px; 
     font-size: 18px; 
     font-weight: bold; 
-    line-height: 30px; 
-    color: #262626; 
+    line-height: 28px; 
+    color: #000000; 
 } 
 
 /* START EXAM BUTTON (Pichla update) */
@@ -56,7 +57,7 @@ body {
     font-size: 16px; 
     font-weight: bold; 
     cursor: pointer; 
-    border-radius: 0;
+    border-radius: 0px;
 } 
 /* END START EXAM BUTTON UPDATES */
 
@@ -96,7 +97,7 @@ body {
 } 
 
 #loadMoreBtn { 
-    background-color: #ff6600; 
+    background-color: #006666; 
     color: white; 
     font-size: 16px; 
     font-weight: bold; 
@@ -107,6 +108,6 @@ body {
 } 
 
 #loadMoreBtn:hover { 
-    background-color: #527a7a; 
+    background-color: #cc5200; 
 }
 /* *** CSS END *** */
