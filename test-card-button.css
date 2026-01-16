@@ -7,10 +7,10 @@ body {
 .test-box { 
     background-color: #f2f2f2; 
     width: 100%; 
-    padding: 30px 10px 10px 10px; 
+    padding: 10px; 
     font-size: 19px; 
     margin: 30px auto; 
-    display: none; 
+    display: none;/* Sab hidden by default */ 
     box-sizing: border-box;
     position: relative; 
     border-radius: 2px; 
@@ -39,12 +39,11 @@ body {
 /* END SMALL BUTTON UPDATES */
 
 
-.test-box h2 { 
-    margin: 0; 
-    margin-top: 6px; 
+.test-box h2 {  
+     margin: 0 0 10px 0;
     font-size: 18px; 
     font-weight: bold; 
-    line-height: 25px; 
+    line-height: 30px; 
     color: #262626; 
 } 
 
@@ -53,11 +52,11 @@ body {
     background-color: #333333; 
     color: #fff; 
     border: none; 
-    padding: 6px 15px; 
-    font-size: 14px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
     font-weight: bold; 
     cursor: pointer; 
-    border-radius: 2px;
+    border-radius: 0;
 } 
 /* END START EXAM BUTTON UPDATES */
 
@@ -103,7 +102,7 @@ body {
     font-weight: bold; 
     border: none; 
     padding: 4px 15px; 
-    border-radius: 3px; 
+    border-radius: 1px; 
     cursor: pointer; 
 } 
 
